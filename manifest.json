@@ -1,0 +1,20 @@
+{
+  "name": "LadoB",
+  "short_name": "LadoB",
+  "start_url": "/LadoB-pwa/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpSm7YrxnDWp7-OZzvA3PJyp3zZ3QbIuxn_uJG0hwJAJfc3pm4FzhKzwpk5DRh9Zrzr8_7aEvfjkGeuFyJdsQmjAEl1on2HKYDC1TqaefASloE_wlBqeUqXBUz8ImbT3vfjmBUfJLgPKEY2gm1rFCdr6UaTBSbDSn6LxseWELUPJaVFZ930aiucDvaXwQ/s1600/1000045968.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw6CLIf6U9WmEGz2huTuStc2Din9ZL5DTISAqyi621jHnEKHNFmn0icurA3HSzyxgHMKgfepS-AG5pPE3uDKQofczUPRdBzHW6er4dB_5UHw-YRbBAWFvaO_BRbOe99xrd5jshu7LiW0k8XosMZ8ATQdRsrr2-zPH7ea2yvmZfxkmdv_fVP4Ng-HmkrEY/s1600/1000045967.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
