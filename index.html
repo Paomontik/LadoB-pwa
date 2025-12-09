@@ -4,19 +4,13 @@
   <meta charset="utf-8">
   <title>LadoB · PWA</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#ffffff">
   <style>
-    @font-face {font-family: 'GuiltyTreasure';
-src:
-url('https://raw.githubusercontent.com/Paomontik/Fonts/13b55666c6c181b4c45db431f10b5d1c672cf0f4/Guilty-Treasure.ttf.eot');
-src:
-url('https://raw.githubusercontent.com/Paomontik/Fonts/13b55666c6c181b4c45db431f10b5d1c672cf0f4/Guilty-Treasure.ttf.eot?#iefix') format('embedded-opentype'),  url('https://raw.githubusercontent.com/Paomontik/Fonts/13b55666c6c181b4c45db431f10b5d1c672cf0f4/Guilty-Treasure.ttf.woff2') format('woff2'),      
-url('https://raw.githubusercontent.com/Paomontik/Fonts/13b55666c6c181b4c45db431f10b5d1c672cf0f4/Guilty-Treasure.ttf.woff') format('woff');font-weight: 400;font-style: normal;font-display: swap;}
     body {
       margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: clamp(1.08rem, 1vw, 1.5rem);
       background: #ffffff;
       color: #1d262d;
       min-height: 100vh;
@@ -24,19 +18,22 @@ url('https://raw.githubusercontent.com/Paomontik/Fonts/13b55666c6c181b4c45db431f
       align-items: center;     
       justify-content: center;} 
     main { max-width: 600px; padding: 2rem 1.5rem; }
-    h1 { font-family:'GuiltyTreasure', Helvetica, Arial, sans-serif;font-size: clamp(2rem, 1vw, 2.5rem);font-weight: 400; letter-spacing: .08em; text-transform: none; }
-    a { color:rgba(224, 33, 138); text-decoration: underline; font-family:'GuiltyTreasure', Helvetica, Arial, sans-serif; font-size: clamp(1.5rem, 1vw, 2rem);}
+    h1 { font-size: clamp(2rem, 1vw, 2.5rem);font-weight: 700; letter-spacing: 0; text-transform: none; text-align:center; margin: 0 auto;}
+    a { color:rgba(224, 33, 138); text-decoration: underline; font-size: clamp(1.08rem, 1vw, 1.5rem);}
     a:hover { color: #1d262d; }
+    .logo-ladob {width: clamp(110px, 40vw, 260px);
+  height: auto; display: block; margin: 0 auto}
   </style>
 </head>
 <body>
   <main>
-    <h1>LadoB · modo offline</h1>
+    <img class="logo-ladob" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge5tTQqnka8S1AMXjkHx_EiziOeX8hvwiDO3OyYnNN18qfeYZEgcCEb4ZcjlCC5NUIFjGhmGESZzRNRg8l_ezgxKjmmqHZyt2eMty10ILxIkSu08llAV-CzgbYoCo1qe9WOeTj4iYLpwlctRckcGLKevzpu5gOMIawCRetEZilLxGCU4B40Ws8RDjWyNw/s1600/1000046082.png" alt="LadoB"/>
+    <h1>modo offline</h1>
     <p>Pequeña versión instalable y sin conexión.</p>
     <p>Cuando haya red, puedes visitar el blog completo en
       <a href="https://exoverso.blogspot.com" target="_blank" rel="noopener">
-        LadoB
-      </a>.
+        <b>LadoB</b>.
+      </a>
     </p>
   </main>
 
@@ -48,18 +45,4 @@ url('https://raw.githubusercontent.com/Paomontik/Fonts/13b55666c6c181b4c45db431f
   }
   </script>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
